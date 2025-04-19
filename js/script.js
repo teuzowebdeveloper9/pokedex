@@ -29,12 +29,12 @@ const searchPokemon = (event) => {
     }
 };
 
-// Adiciona o evento "keydown" ao input
+
 form.addEventListener("keydown", searchPokemon);
  
 function prev(){
     let prev = pokemonNumber.innerHTML;
-    prev = parseInt(prev); // Converte o valor para um número inteiro
+    prev = parseInt(prev);
     if (prev > 1) {
         prev--;
         renderPokemon(prev);
