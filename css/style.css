@@ -46,10 +46,12 @@ main{
 }
 .pokemon-number{
     color: rgb(27, 98, 206);
+    font-size: 20px;
     
 }
 .pokemon-name{
     color: rgb(255, 0, 0);
+    font-size: 20px;
     
 }
 .search {
