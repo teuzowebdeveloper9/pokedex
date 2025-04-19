@@ -25,6 +25,12 @@ The goal was to have fun while practicing my frontend skills and working with a 
 
 ---
 
+## 🌐 Live Demo
+
+If you want to see the project live, check it out here: [Pokédex Live Demo](https://pokedex-complete-pearl.vercel.app/)
+
+---
+
 ## 🎥 Credits & Inspiration
 
 Huge thanks to **[Manual do Dev](https://www.youtube.com/@ManualdoDev)** — I based my project on his amazing Pokédex tutorial:  
