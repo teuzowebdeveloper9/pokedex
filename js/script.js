@@ -1,6 +1,7 @@
 let pokemonName = document.querySelector(".pokemon-name");
 let pokemonNumber = document.querySelector(".pokemon-number");
 let form = document.getElementById("search-input");
+let imgPokemon = document.getElementById('img');
 
 
 const fetchPokemon = async (pokemon) => {
@@ -16,14 +17,15 @@ const renderPokemon = async (pokemon) => {
     const data = await fetchPokemon(pokemon);
 
     pokemonName.innerHTML = data.name; 
-    pokemonNumber.innerHTML = data.id; 
+    pokemonNumber.innerHTML = data.id;
+    imgPokemon.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
 };
 
 const searchPokemon = (event) => {
     if (event.key === "Enter") {
-        event.preventDefault(); // Previne o comportamento padrão do Enter
-        renderPokemon(form.value.toLowerCase()); // Busca o Pokémon com o valor do input
-        form.value = ""; // Limpa o campo de input
+        event.preventDefault(); 
+        renderPokemon(form.value.toLowerCase()); 
+        form.value = ""; 
     }
 };
 
