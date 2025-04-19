@@ -1,6 +1,6 @@
 *{
    font-family: "Poppins", sans-serif;
-   font-weight: 200;
+   font-weight: bold;
    font-style: normal;
    box-sizing: border-box;
    margin: 0;
@@ -18,10 +18,23 @@ main{
     padding: 15px;
     margin-top: 150px; 
     margin-bottom: 300px;
+    position: relative;
 }
 .pokedex{
-    width: 100%;
+    width: 250px;
     height: 350px;
+    max-width: 250px;
     
 
+}
+.pokemon-image{
+    position: absolute;
+    bottom: 190px;
+    left: 100px;
+    max-height: 35%;
+    max-width: 35%;
+
+}
+.pokemon-data{
+    font-weight: bold;
 }
