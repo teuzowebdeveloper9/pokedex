@@ -37,4 +37,31 @@ main{
 }
 .pokemon-data{
     font-weight: bold;
+    position: absolute;
+    top: 52%;
+    right: 29%;
+    font-size: clamp(8px, 5vw, 25px);
+ 
+    
+}
+.pokemon-number{
+    color: rgb(27, 98, 206);
+    
+}
+.pokemon-name{
+    color: rgb(255, 0, 0);
+    
+}
+.search {
+    position: absolute;
+    top:390px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 140px; 
+    padding: 10px;
+    font-size: 9px;
+    border-radius: 20px;
+}
+.search::placeholder{
+    font-weight: bold;
 }
